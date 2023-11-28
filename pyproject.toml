@@ -1,0 +1,14 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "tarp"
+version = "1.0.0"
+description = "ARP Request Module"
+requires-python = ">=3.2"
+license = {file = "LICENSE"}
+readme = "README.md"
+
+[tool.hatch.metadata]
+allow-direct-references = true
