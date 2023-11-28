@@ -8,7 +8,6 @@ The Following items in the SourceCode Input Required
 # Initialization Variables [変数初期化]
 
 interface = ''# Source Interface [送信元インターフェース]
-
 common_source_mac = ''# Source MACaddress [送信元MACアドレス]
 
 arp_sender_ip = ''# Source IPaddress [送信元IPアドレス]
