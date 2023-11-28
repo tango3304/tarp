@@ -1,6 +1,8 @@
 # tarp
 ARP Request Module
 
+Linux OS Only executable  [Linux OSのみ実行可能]
+
 The Following items in the SourceCode Input Required  [ソースコード内の以下項目の入力が必要]
 
 # Initialization Variables [変数初期化]
