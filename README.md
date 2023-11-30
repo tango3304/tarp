@@ -5,7 +5,7 @@ Linux OS Only executable  [Linux OSのみ実行可能]
 
 Python Version 3.2 onwards executable 　[Pythonバージョン3.2以降 実行可能]
 
-# install Module: pip install scapy 　[scapyのインストールが必要]
+No Import install Module: pip install scapy 　[インポートしないなら、scapyのインストールが必要]
 
 The Following items in the SourceCode Input Required  [ソースコード内の以下項目の入力が必要]
 
