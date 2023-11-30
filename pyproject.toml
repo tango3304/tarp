@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "tarp"
-version = "1.0.0"
+version = "1.0.1"
 description = "ARP Request Module"
 requires-python = ">=3.2"
 license = {file = "LICENSE"}
