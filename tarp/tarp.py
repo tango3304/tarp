@@ -118,13 +118,13 @@ with socket.socket(socket.AF_PACKET, socket.SOCK_RAW, socket.htons(ETH_P_ALL)) a
 	Ether(arp_response_packet).show()
 
 
-
 # ARP Table Write [ARPテーブルに書き込む]
 arp_hwdst = Ether(arp_response_packet).hwdst
 run(['arp', '-i', interface, '-s', arp_target_ip, arp_hwdst])
 arp_table_write_time = datetime.now()
 print(f'\n ARP Table Write:        {arp_table_write_time}')
 
+# ARP Table Confirmation [ARPテーブルを確認]
 after_arp_table_confirmation_time = datetime.now()
 print(f'\n ARP Table Confirmation: {after_arp_table_confirmation_time}  (Target:{arp_target_ip})')
 run(['arp', '-a', arp_target_ip])
