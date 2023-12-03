@@ -5,16 +5,12 @@ Linux OS Only executable  [Linux OSのみ実行可能]
 
 Python Version 3.2 onwards executable 　[Pythonバージョン3.2以降 実行可能]
 
-Install Module: pip install scapy 　[scapyのインストールが必要]
+# Enter the following items when executing  [実行時に以下項目を入力]
 
-The Following items in the SourceCode Input Required  [ソースコード内の以下項目の入力が必要]
+Source Interface [送信元インターフェース]
 
-# Initialization Variables [変数初期化]
+Source MACaddress [送信元MACアドレス]
 
-interface = ''        # Source Interface [送信元インターフェース]
+Source IPaddress [送信元IPアドレス]
 
-common_source_mac = ''# Source MACaddress [送信元MACアドレス]
-
-arp_sender_ip = ''    # Source IPaddress [送信元IPアドレス]
-
-arp_target_ip = ''    # Destination IPaddress [宛先IPアドレス]
+Destination IPaddress [宛先IPアドレス]
