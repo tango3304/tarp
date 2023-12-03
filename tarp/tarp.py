@@ -6,7 +6,7 @@ from sys import exit, exc_info
 from traceback import format_exception_only
 import socket
 from datetime import datetime
-from scapy.layers.l2 import Ether
+# from scapy.layers.l2 import Ether
 from subprocess import run
 
 
@@ -108,13 +108,13 @@ try:
 		arp_socket.send(arp_request_packet)
 		send_time = datetime.now()
 		print(f'\n\n ARP Request Send Time: {send_time}')
-		Ether(arp_request_packet).show()
+		# Ether(arp_request_packet).show()
 
 	# ARP Response Packet Receive [ARP応答パケット受信]
 		arp_response_packet = arp_socket.recv(SOCKET_RECEIVE_BUFSIZE)
 		receive_time = datetime.now()
 		print(f'\n ARP Respons Receive Time: {receive_time}')
-		Ether(arp_response_packet).show()
+		# Ether(arp_response_packet).show()
 
 
 
